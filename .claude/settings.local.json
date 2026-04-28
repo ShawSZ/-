@@ -1,0 +1,9 @@
+{
+  "env": {
+      "ANTHROPIC_AUTH_TOKEN": "ark-ef65abd0-a465-4c8c-82ab-b4ecc8b4599c-cb2a7",
+      "ANTHROPIC_BASE_URL": "https://ark.cn-beijing.volces.com/api/coding",
+      "ANTHROPIC_MODEL": "<Model_Name>"
+  }
+}
+
+
