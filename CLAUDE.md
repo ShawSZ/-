@@ -17,6 +17,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **禁止硬编码密码/Token/密钥**：泄露即失控，环境变量或配置中心管理
 - **禁止 git commit --no-verify 或 --no-gpg-sign**：绕过安全检查
 - **禁止将 .env 等敏感配置 git add**：防止凭据泄露到仓库
+- **禁止将 .claude 文件夹上传到仓库**：.claude 为本地 Claude Code 配置目录，含用户偏好和会话数据，不应纳入版本控制
 - **禁止密码明文存储**：必须 bcrypt/Argon2 哈希
 - **禁止日志输出密码/身份证/银行卡等敏感信息**
 - **禁止将调试堆栈直接返回前端**：信息泄露
